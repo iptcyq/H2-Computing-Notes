@@ -1,0 +1,34 @@
+Database: A collection of data stored in an organised or logical manner.
+
+Relational database: Data is stored in relations and represented in the form of tuples 
+Eg: TableName (Attrb 1, Attrb 2, Attrb 3), Student (ID, Name, Class)
+relational db has 
+-atomic values
+-columns of the same kind
+-unique rows
+-order of columns insignificant
+-columns have unique names
+
+Record/ Tuple: A complete set of data on one item (row)
+Field/ Attribute: A piece of data on one item (column)
+
+Candidate Key: Minimum fields to make a record unique 
+Primary Key: Candidate Key to make the main key
+Secondary Key: Candidate Keys that are not PK
+Composite Key: Multiple fields to make a record unique
+Foreign Key: An attribute that refers to the PK of another table
+
+Data redundancy: The same data being stored more than once
+Eg: ID, Name, Class, Tutor; Class & Tutor is the same for multiple records
+Possible issues:
+-inserting data: cannot insert student till class and tutor assigned
+-updating data: need to change all records of tutor when it changes
+-deleting data: if student table is deleted, class and tutor info are deleted
+
+Data dependency: 
+Functional dependency: X as PK, and it uniquely determines Y
+Eg: class (PK) and tutor (dependent on class)
+Transitive dependency: Indirectly formed by 2 functional dependencies
+Eg: X FD on Y, Y not FD on X, Y FD on Z - X TD on Z
+
+Normalisation: Orgnaising tables to reduce data redundancy

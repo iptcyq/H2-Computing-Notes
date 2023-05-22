@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="{{ url_for('static',filename='Task4_3_style_YIJC.css') }}">
+		<title>Product Page</title>
+	</head>
+	<body>
+		<h1>All Products:</h1>
+		<table>
+			<thead>
+			<tr><th>Product ID</th>
+				<th>Product Name</th>
+				<th>Unit Cost</th></tr>
+			</thead>
+			<tbody>
+				{% for product in products%}
+				<tr>
+					{% for i in product %}
+						<td>{{ i }}</td>
+					{% endfor %}
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		
+	</body>
+</html>
