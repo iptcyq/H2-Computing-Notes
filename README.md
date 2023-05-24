@@ -1,6 +1,8 @@
 # H2-Computing-Stuff
 Codes and Notes and Past Year Papers for computing
 
+** Note to self: delete ALL questions and solutions if you ever make this public **
+
 <table>
 <tr><th> Notes/ Codes </th><th> Practice Papers </th></tr>
 <tr><td>
