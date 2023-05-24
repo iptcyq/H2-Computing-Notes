@@ -32,7 +32,7 @@ Codes and Notes and Past Year Papers for computing
 | HCI Prelim 2018 | Y | N |
 | RVHS CT3 2022 | Y | Y |
 | YIJC webapp 2022 | Y | N |
-| --- | N | N |
+| ALEVEL Specimen | N | N |
 | --- | N | N |
 | --- | N | N |
 | --- | N | N |
