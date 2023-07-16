@@ -30,12 +30,12 @@ Codes and Notes and Past Year Papers for computing
 | HCI BT 2021 | Y | Y |
 | HCI BT 2020 | Y | Y |
 | HCI Prelim 2018 | Y | N |
+| HCI Prelim 2020 | Y | Y |
+| HCI Prelim 2021 | N | N |
+| HCI Prelim 2022 | N | N |
 | RVHS CT3 2022 | Y | Y |
 | YIJC webapp 2022 | Y | N |
 | ALEVEL Specimen | N | N |
-| --- | N | N |
-| --- | N | N |
-| --- | N | N |
 | --- | N | N |
 | --- | N | N |
 
