@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Bakery Product Results</title>
+		<style>
+			
+		</style>
+	</head>
+	
+	<body>
+		<h1>Bakery product results for <b>{{ location }}</b></h1>
+		<table border="1">
+			<tr>
+				<th>Products</th>
+				<th>Type</th>
+				<th>Price</th>
+			</tr>
+			{% for product in products %}
+			<tr>
+				{% for data in product %}
+				<td>{{ data }}</td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>
