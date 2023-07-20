@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Sql logs</title>
+	</head>
+	
+	<body>
+		<h2>Logs</h2>
+		<table border>
+		<tr>
+			<th><b>Sender</b></th>
+			<th><b>Access Date</b></th>
+			<th><b>App Type</b></th>
+			<th><b>Status</b></th>
+		</tr>
+		{% for log in logs %}
+			<tr>
+			{% for data in log %}
+				<td>{{ data }}</td>
+			{% endfor %}
+			</tr>
+		{% endfor %}
+		</table>
+	</body>
+</html>
