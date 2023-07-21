@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Student health records</title>
+	</head>
+	
+	<body>
+		<h1>Student health records</h1>
+		<table border>
+			<tr>
+				<th>Name</th>
+				<th>Gender</th>
+				<th>Weight</th>
+				<th>Height</th>
+			</tr>
+			{% for i in results %}
+			<tr>
+				{% for j in i %}
+				<td>
+					{{ j }}
+				</td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>
