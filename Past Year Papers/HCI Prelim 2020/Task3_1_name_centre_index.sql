@@ -12,7 +12,7 @@ CREATE TABLE `Loaf` (
 FOREIGN KEY(`ProductCode`) REFERENCES `Product`(`ProductCode`), 
 PRIMARY KEY(`ProductCode`) )
 
-CREATE TABLE "Cake" ( 
+CREATE TABLE `Cake` ( 
 `ProductCode` TEXT NOT NULL UNIQUE, 
 `ServingSize` INTEGER NOT NULL, 
 `Shape` TEXT NOT NULL, 

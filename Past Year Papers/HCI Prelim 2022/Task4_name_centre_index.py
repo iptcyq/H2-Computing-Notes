@@ -21,7 +21,7 @@ def student_rec():
             FROM Student LEFT JOIN StudentHealthRecord 
             ON Student.StudentID = StudentHealthRecord.StudentID
             ORDER BY Student.Gender ASC, Student.Name DESC'''
-    results = cursor_to_list(connection.execute(query))
+    results = cursor_to_list(connection.execute(query)) # just use .fetchall()
     return render_template('StudentRec.html', results=results)
 
 @app.route('/health_rec')

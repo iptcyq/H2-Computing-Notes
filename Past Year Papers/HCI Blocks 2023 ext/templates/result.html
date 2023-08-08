@@ -1,0 +1,29 @@
+<!doctype>
+<html>
+	<head> 
+		<title> Post results </title>
+	</head>
+	<body> 
+		<h1>{{ uname }}'s post(s)</h1>
+		<table border>
+			<tr>
+				<th>Name</th>
+				<th>Post</th>
+				<th>Tags</th>
+			</tr>
+			{% for post in posts %}
+			<tr>
+				<td>{{ post[1] }}</td>
+				<td>{{ post[2] }}</td>
+				{% if post[3:][0] %}
+				<td>
+					{% for tag in post[3:][0] %}
+						#{{ tag }}
+					{% endfor %}
+				</td>
+				{% endif %}
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

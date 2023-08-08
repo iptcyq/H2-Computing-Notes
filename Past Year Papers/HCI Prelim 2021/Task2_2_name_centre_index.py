@@ -20,7 +20,7 @@ f.close()
 
 records = data.split("\n")
 for rec in records:
-    if rec[-1].isalpha():
+    if rec[-1].isalpha(): # differentiate between ip and phone
         sender, date, status, app = rec.split(" ")
         query = '''INSERT INTO
             Log(Sender,AccessDate,Status,AppType)

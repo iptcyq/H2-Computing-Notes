@@ -1,4 +1,5 @@
 # Task 2.3
+# from Task2_2 import ServiceRecord instead of rewriting
 class ServiceRecord():
     def __init__(self,Sender,AccessDate,Status,AppType):
         self.Sender = Sender
@@ -25,10 +26,8 @@ class AppServiceRecord(ServiceRecord):
     def getSuccess(self):
         if self.isSuccess() == True:
             return 'SUCCESS'
-        elif self.isSuccess() == False:
+        else self.isSuccess() == False:
             return 'FAILED'
-        else: # not possible
-            return None
 
 class SmsServiceRecord(ServiceRecord):
     def __init__(self,Sender,AccessDate,Status):

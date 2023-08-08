@@ -9,8 +9,7 @@ def index():
 
 @app.route('/submit', methods=["post"])
 def submit():
-    data = request.form
-    location = data["location"]
+    location = request.form["location"]
     connection = sqlite3.connect('bakery.db')
     query = '''
     SELECT Name, Type, Price FROM PRODUCT
