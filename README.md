@@ -1,7 +1,7 @@
 # H2-Computing-Stuff
 Codes and Notes and Past Year Papers for computing
 
-** Note to self: delete ALL questions and solutions if you ever make this public (copyright issues) **
+** Note to self: delete ALL question papers if you ever make this public (copyright issues) - leave only your code solutions/ corrections **
 
 <table>
 <tr><th> Notes/ Codes </th><th> Practice Papers </th></tr>
@@ -26,17 +26,17 @@ Codes and Notes and Past Year Papers for computing
 
 | School/ Paper | Completed | Checked |
 | ------------- | --------- | ------- |
+| HCI BT 2023 ext | Y | N |
 | HCI BT 2022 | Y | Y |
 | HCI BT 2021 | Y | Y |
 | HCI BT 2020 | Y | Y |
-| HCI Prelim 2018 | Y | N |
+| HCI Prelim 2022 | Y | Y |
+| HCI Prelim 2021 | Y | Y |
 | HCI Prelim 2020 | Y | Y |
-| HCI Prelim 2021 | Y | N |
-| HCI Prelim 2022 | Y | N |
+| HCI Prelim 2018 | Y | N |
 | RVHS CT3 2022 | Y | Y |
 | YIJC webapp 2022 | Y | N |
 | ALEVEL Specimen | N | N |
-| --- | N | N |
 | --- | N | N |
 
 </td></tr> </table>
