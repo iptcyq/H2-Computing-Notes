@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Current Outstanding Loans</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+	</head>
+	<body>
+		<h1>Books currently on loan</h1>
+		<hr>
+		<br>
+		<table>
+			<tr>
+				<th>Member's family name</th>
+				<th>Member's given name</th>
+				<th>Book title</th>
+			</tr>
+			{% for row in loans %}
+				<tr>
+					<td>{{ row[0] }}</td>
+					<td>{{ row[1] }}</td>
+					<td>{{ row[2] }}</td>
+				</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

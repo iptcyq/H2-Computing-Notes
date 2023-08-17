@@ -1,0 +1,16 @@
+/* formats table */
+table {
+	border: 2px double;
+}
+
+/* formats both table-header & table-data */
+th, td {
+	text-align: center;
+    padding: 3px;
+    border: 1px solid;
+}
+
+/* formats table-data
+th {
+	border-bottom: 2px dashed #ff00f0;
+} */

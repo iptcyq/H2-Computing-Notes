@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>People List</title>
+	</head>
+<body>
+	<p>Screen Name</p>
+	<table border>
+	<tr><th>Full Name</th><th>Screen Name</th><th>Identity</th></tr>
+	{% if results|length > 0 %}
+		{% for item in results  %}
+		<tr>
+			<td>{{ item.getFullName() }}</td>
+			<td>{{ item.screen_name() }}</td>
+			<td>{{ item.identity() }}</td>
+		</tr>
+		{% endfor %}
+	{%else%}
+		<tr>
+			<td colspan="2">No Items</td>
+		</tr>
+	{%endif%}
+	</table>
+</body>
+</html>

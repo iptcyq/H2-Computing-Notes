@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Current Outstanding Loans</title>
+	</head>
+	<body>
+		<h1>Books currently on loan</h1>
+		<hr>
+		<br>
+<!-- inline style used instead of css as the table looks horrible without border, and css file not needed -->
+		<table style="border: 1px solid black;">
+			<tr>
+				<th style="border: 1px solid black;">Member's family name</th>
+				<th style="border: 1px solid black;">Member's given name</th>
+				<th style="border: 1px solid black;">Book title</th>
+			</tr>
+			{% for row in loans %}
+				<tr>
+					<td style="border: 1px solid black;">{{ row[0] }}</td>
+					<td style="border: 1px solid black;">{{ row[1] }}</td>
+					<td style="border: 1px solid black;">{{ row[2] }}</td>
+				</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

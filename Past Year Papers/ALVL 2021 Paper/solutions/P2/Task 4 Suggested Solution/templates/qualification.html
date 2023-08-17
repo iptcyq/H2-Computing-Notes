@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Qualifiers</title></head>
+	<body>
+		<h1>Qualification</h1>
+		<table border = 'black'>
+			<tr>
+				<th>Name</th>
+				<th>Total Score</th>
+				<th>Qualification</th>
+			</tr>
+			{% for row in results %}
+				<tr>
+					<td>{{row[0]}}</td>
+					<td>{{row[1]}}</td>
+					<td>{{row[2]}}</td>
+				</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>
