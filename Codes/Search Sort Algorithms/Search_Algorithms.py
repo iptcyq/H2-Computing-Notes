@@ -33,16 +33,4 @@ def binary_search(arr, target):
 	return False
 
 # hash table search
-def hash_function():
-        pass
-
-def linearprobe_hashtable_search(arr, target):
-        pass
-
-def chaining_hashtable_search(arr, target):
-        pass
-
-a = [324,686,456,7,3,74,445,55]
-a = [0,1,2,3,4,5,6,7,8]
-print(binary_search(a,55))
-print(binary_search(a,0))
+# nah hash table search is ez claps

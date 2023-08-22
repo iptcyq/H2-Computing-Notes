@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> revision guide </title>
+<link rel='stylesheet' type = 'text/css' href = '{{url_for('static', filename='styles.css')}}'> <!-- css file -->
+</head>
+<body>
+
+
+<p>tables
+<table border = 3> <!-- border for clarity -->
+<!-- header -->
+<tr>
+<th>header 1</th><th>header 2...</th>
+</tr>
+<!-- data row -->
+{% if table|length > 0 %} <!-- length of table > 0 -->
+	{% for row in table %}
+	<tr><td>{{data 1}}</td><td>{{data 2...}}</td></tr>
+	{% endfor %}
+{% else %}
+	<tr><td>no data</td></tr>
+{% endif%}
+</table> 
+</p>
+
+
+<p>forms</p>
+<form method = 'POST' action = '/add'>
+	<!-- text box -->
+	<p><label for = 'name'> name: </label>
+	<input type = 'text' value = '' name = 'name' id = 'name'></p>
+	
+	<!-- button -->
+	<p><label for='gender'> gender: </label>
+	
+	<input type = 'radio' value='M' name='gender' id= 'gender'> male </input>
+	<input type = 'radio' value='F' name='gender' id='gender'> female </input>
+	</p>
+
+	<!-- submit button -->
+	<p><input type='submit' value='add' name='action'></p>
+</form>
+
+
+<p>links</p>
+<a href = '{{url_for('name of html only')}}'> display text </a>
+
+
+</body>
+</html>
