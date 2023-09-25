@@ -10,6 +10,12 @@ def index():
 
 @app.route('/roundone')
 def roundone():
+    conn = sqlite3.connect("Task4.db")
+
+    query = '''SELECT * FROM '''
+    results = conn.execute(query).fetchall()
+    
+    conn.close()
     return "round 1 results"
 
 @app.route('/roundtwo')
