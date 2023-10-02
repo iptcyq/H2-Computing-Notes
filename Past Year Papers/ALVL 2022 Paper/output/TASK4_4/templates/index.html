@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Library database</title>
+	</head>
+	<body>
+		<h2>Unreturned books</h2>
+		<table border>
+			<tr>
+				<th>Family name</th>
+				<th>Given name</th>
+				<th>Book title</th>
+			</tr>
+			{% for record in results %}
+			<tr>
+				{% for cell in record %}
+				<td> {{ cell }} </td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

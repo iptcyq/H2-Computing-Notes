@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Round one scores</title>
+	</head>
+	
+	<body>
+		<table border>
+			<tr>
+				<th>Competitor name</th>
+				<th>Score</th>
+			</tr>
+			{% for res in results %}
+			<tr>
+				{% for item in res %}
+				<td> {{ item }} </td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

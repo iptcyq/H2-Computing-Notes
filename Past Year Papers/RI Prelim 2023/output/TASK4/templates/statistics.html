@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Fitness Club Statistics</title>
+	</head>
+	<body>
+		<table border>
+			<tr>
+				<th>Count</th>
+				<th>Age</th>
+				<th>Weight</th>
+				<th>Height</th>
+				<th>Date</th>
+			</tr>
+			
+			{% for record in result %}
+			<tr>
+				{% for info in record %}
+				<td>{{ info }}</td>
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

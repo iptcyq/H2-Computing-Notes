@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Enrolment</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+	</head>
+	</body>	
+		<h1>Enrolment</h1>
+		<table>
+			<tr>
+				<th>School</th>
+				<th>No of students</th>
+				<th>Mean Overall AL</th>
+			</tr>
+			{% for sch in sch_summary %}
+			<tr>
+				<td>{{sch[0]}}</td>
+				<td>{{sch[1]}}</td>
+				<td>{{sch[2]}}</td>
+			</tr>
+			{% endfor %}
+		</table>
+		<br>
+		<br>
+		<form action="{{url_for('display')}}" method = 'POST'>
+			<label for='cutoff'>Enter Cutoff Overall AL:</label>
+			<input type='number' name='cutoff' id='cutoff'>
+			<br><br>
+			<input type='submit'>
+		</form>
+	</body>
+</html>

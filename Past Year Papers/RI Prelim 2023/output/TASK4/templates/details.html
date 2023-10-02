@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Fitness Club Member Details</title>
+	</head>
+	<body>
+		<table border>
+			<tr>
+				<th>Name</th>
+				<th>Gender</th>
+				<th>Age</th>
+				<th>Weight</th>
+				<th>Height</th>
+				<th>Date</th>
+			</tr>
+			
+			{% for record in result %}
+			<tr>
+				{% for info in record %}
+					{% if info %}
+					<td>{{ info }}</td>
+					{% else %}
+					<td> - </td>
+					{% endif %}
+				{% endfor %}
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Enrolment</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+	</head>
+	</body>	
+		<table
+			<tr>
+				<td>Name</td>
+				<td>Gender</td>
+				<td>Primary School</td>
+				<td>Overall AL</td>
+				<td>Guardian Name</td>
+				<td>Guardian Contact</td>
+			</tr>
+			{% for stu in stu_details %}
+			<tr>
+				<td>{{stu[0]}}</td>
+				<td>{{stu[1]}}</td>
+				<td>{{stu[2]}}</td>
+				<td>{{stu[3]}}</td>
+				<td>{{stu[4]}}</td>
+				<td>{{stu[5]}}</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>
