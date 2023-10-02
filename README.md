@@ -1,42 +1,47 @@
 # H2-Computing-Stuff
 Codes and Notes and Past Year Papers for computing
 
-** Note to self: delete ALL question papers if you ever make this public (copyright issues) - leave only your code solutions/ corrections **
+** Note to self: delete ALL question papers if you ever make this public (copyright issues) - leave only your code solutions/ corrections, remove your name too **
 
 <table>
-<tr><th> Notes/ Codes </th><th> Practice Papers </th></tr>
+<tr><th> Notes/ Codes </th><th> Completed Practice Papers </th></tr>
 <tr><td>
 
-| Chapter | Notes | Codes |
-| ------- | ----- | ----- |
-| 01 02 03 Intro | N | N |
-| 04 Functions | N | N |
-| 05 Data Representation | N | N |
-| 06 Strings and files | N | N |
-| 07 Arrays, list, dicts | N | N |
-| 08 Search and Sort | N | Y |
-| 09 OOP | N | N |
-| 10 Data Structures | N | N |
-| 11 SQLite3 (Database) | Y | N |
-| 12 MongoDB (NoSQL) | Y | N |
-| 13 Socket | N | N |
-| 14 Web App | N | N |
+- Search and Sort
+- SQLite3 (Database)
+- MongoDB (NoSQL)
+- SUMMARY notebook for myself
 
 </td><td>
 
-| School/ Paper | Completed | Checked |
-| ------------- | --------- | ------- |
-| HCI BT 2023 ext | Y | N |
-| HCI BT 2022 | Y | Y |
-| HCI BT 2021 | Y | Y |
-| HCI BT 2020 | Y | Y |
-| HCI Prelim 2022 | Y | Y |
-| HCI Prelim 2021 | Y | Y |
-| HCI Prelim 2020 | Y | Y |
-| HCI Prelim 2018 | Y | N |
-| ACJC Prelim 2022 | Y | N |
-| RVHS CT3 2022 | Y | Y |
-| YIJC webapp 2022 | Y | N |
-| ALEVEL Specimen | N | N |
+HCI:
+- HCI BT 2023 ext
+- HCI BT 2022
+- HCI BT 2021
+- HCI BT 2020
+- HCI Prelim 2022
+- HCI Prelim 2021
+- HCI Prelim 2020
+- HCI Prelim 2018
+
+</br>
+
+Other schools:
+- ACJC Prelim 2022
+- JPJC Prelim 2022
+- NYJC-TJC-VJC Prelim 2023
+- NYJC-TJC-VJC Prelim 2022
+- RI Prelim 2023
+- RVHS Prelim 2023
+- RVHS CT3 2022
+- YIJC webapp 2022
+
+</br>
+
+A levels:
+- ALEVEL 2022 Paper 
+- ALEVEL 2021 Paper 
+- ALEVEL 2020 Paper 
+- ALEVEL Specimen 
 
 </td></tr> </table>
