@@ -32,7 +32,6 @@ Other schools:
 - NYJC-TJC-VJC Prelim 2023
 - NYJC-TJC-VJC Prelim 2022
 - RI Prelim 2023
-- RVHS Prelim 2023
 - RVHS CT3 2022
 - YIJC webapp 2022
 
